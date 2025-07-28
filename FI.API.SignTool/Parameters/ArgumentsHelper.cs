@@ -3,7 +3,7 @@ using System.IO;
 
 namespace FI.API.SignTool.Parameters;
 
-public class ArgumentsHelper
+public static class ArgumentsHelper
 {
     public static string GetDataOrFileContent(string? data, string? dataFileName)
     {

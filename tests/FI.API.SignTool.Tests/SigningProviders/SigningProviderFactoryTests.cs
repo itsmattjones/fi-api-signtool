@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using FI.API.SignTool.Parameters.Interfaces;
 using FI.API.SignTool.SigningProviders;
 using FI.API.SignTool.Types;

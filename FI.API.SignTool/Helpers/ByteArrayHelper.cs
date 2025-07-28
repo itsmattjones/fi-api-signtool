@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace FI.API.SignTool.Helpers;
 
-public class ByteArrayHelper
+public static class ByteArrayHelper
 {
     public static byte[] TranslateByteArray(string? text) => (text ?? string.Empty)
         .Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
